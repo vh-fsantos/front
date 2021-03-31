@@ -210,3 +210,15 @@ button {
 .faqDescription {
     width: 80%;
 }
+
+.footer {
+    background-color: #A141EB;
+}
+
+.footerText {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2% 0;
+    text-align: center;
+    color: #fff;
+}
