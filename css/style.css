@@ -1,0 +1,123 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+p,
+blockquote,
+hr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+small {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-size: 100%;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+* {
+    font-family: var(--font);
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    color: #2B2B2B;
+    background: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+button {
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    /* Firefox 4 */
+    -webkit-transition: all 0.5s ease;
+    /* Safari and Chrome */
+    -o-transition: all 0.5s ease;
+    /* Opera */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+:root {
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
