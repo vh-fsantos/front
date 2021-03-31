@@ -194,11 +194,18 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .faqTitle {
     color: #A141EB;
     line-height: 3rem;
+}
+
+.faqLine {
+    border: solid 1px #E7E7E7;
+    width: 60%;
 }
 
 .faqOpen {
