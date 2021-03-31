@@ -88,13 +88,6 @@ button {
     font-size: 16px;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 5%;
-    box-sizing: border-box;
-}
-
 .headerContainer {
     display: flex;
     flex-direction: row;
@@ -179,15 +172,15 @@ button {
 
 .faq {
     background-color: #F1F1F1;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
     padding: 2% 0;
     padding-left: 50px;
 }
 
 .faqWrapper {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .faqHeader {
@@ -214,26 +207,6 @@ button {
     width: 30px;
 }
 
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1400px;
-    }
+.faqDescription {
+    width: 80%;
 }
