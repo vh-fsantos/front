@@ -136,7 +136,7 @@ button {
     z-index: 1;
     background: #A141EB;
     width: 700px;
-    height: 72px;
+    height: 80px;
     border-bottom-right-radius: 50px;
 }
 
@@ -144,11 +144,11 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 12px;
     font-weight: 700;
     color: #FFFFFF;
     border-radius: 50px;
-    padding: 1% 2%;
+    padding: 10px 30px;
     line-height: 27px;
     font-size: 0.9rem;
     z-index: 1;
@@ -235,6 +235,7 @@ button {
 .faqTitle {
     color: #A141EB;
     line-height: 3rem;
+    font-size: 1.25rem;
 }
 
 .faqLine {
@@ -250,6 +251,7 @@ button {
 
 .faqDescription {
     width: 80%;
+    padding: 2% 0;
     display: none;
 }
 
