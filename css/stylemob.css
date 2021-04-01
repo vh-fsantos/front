@@ -1,0 +1,52 @@
+.container {
+    max-width: 100%;
+}
+
+.headerContainer {
+    display: none;
+}
+
+.effectHeader {
+    width: 100%;
+}
+
+.headerMobile {
+    background-color: #A141EB;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerItems {
+    text-align: center;
+    width: 100%;
+}
+
+.headerItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 15%;
+}
+
+.menuButton {
+    background-color: #9EAD0E;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 2% 0;
+}
+
+.restrictArea {
+    position: relative;
+    border-radius: 50px;
+    top: 0px;
+    right: 0px;
+}

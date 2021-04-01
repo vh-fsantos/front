@@ -119,6 +119,10 @@ button {
     }
 }
 
+.headerMobile {
+    display: none;
+}
+
 .headerContainer {
     display: flex;
     flex-direction: row;
@@ -154,11 +158,11 @@ button {
     z-index: 1;
 }
 
-.franqueado {
+.franchisee {
     background-color: #E1A626;
 }
 
-.consultor {
+.consultant {
     background-color: #7928B7;
 }
 
@@ -185,6 +189,8 @@ button {
     z-index: -1;
     left: 0px;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .bannerContent {

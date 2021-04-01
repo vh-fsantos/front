@@ -1,4 +1,9 @@
 $(function() {
+    $("body").on("click", ".menuButton", function() {
+        const dropdown = $(this).parent().find(".containerItems");
+        dropdown.slideToggle();
+    });
+
     $("body").on("click", ".faqHeader", function() {
         const description = $(this).parent().find(".faqDescription");
         if (description.is(":visible")) {
