@@ -31,16 +31,17 @@
     align-items: center;
     justify-content: center;
     margin: 2% 15%;
+    font-size: 0.75rem;
 }
 
 .menuButton {
     background-color: #9EAD0E;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 20px;
+    padding: 15px;
     margin: 2% 0;
 }
 
@@ -49,4 +50,52 @@
     border-radius: 50px;
     top: 0px;
     right: 0px;
+}
+
+.bannerContent {
+    background: none;
+    justify-content: center;
+    width: 62%;
+    padding-left: 20px;
+}
+
+.bannerTitle {
+    font-size: 2rem;
+    line-height: 5.5rem;
+}
+
+.banner {
+    height: 260px;
+}
+
+.bannerText {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.faq {
+    padding-left: 10px;
+}
+
+.faqWrapper {
+    width: 95%;
+}
+
+.faqLine {
+    display: none;
+}
+
+.faqTitle {
+    flex: auto;
+    font-size: 0.85rem;
+}
+
+.faqOpen {
+    height: 10px;
+    width: 17.65px;
+}
+
+.faqDescription {
+    font-size: .8rem;
 }
