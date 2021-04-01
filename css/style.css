@@ -88,6 +88,37 @@ button {
     font-size: 16px;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
 .headerContainer {
     display: flex;
     flex-direction: row;
@@ -141,6 +172,11 @@ button {
     border-radius: 10px;
 }
 
+.banner {
+    margin: 0;
+    padding: 0;
+}
+
 .bannerContent {
     display: flex;
     flex-direction: column;
@@ -167,6 +203,7 @@ button {
 .bannerImg {
     position: absolute;
     top: 0px;
+    left: 0px;
     z-index: -1;
 }
 
@@ -222,35 +259,4 @@ button {
     padding: 2% 0;
     text-align: center;
     color: #fff;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 5%;
-    box-sizing: border-box;
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1400px;
-    }
 }
