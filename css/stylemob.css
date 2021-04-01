@@ -12,14 +12,14 @@
 
 .headerMobile {
     background-color: #A141EB;
-    position: fixed;
-    top: 0;
-    z-index: 2;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
 }
 
 .containerItems {
@@ -27,9 +27,13 @@
     width: 100%;
     position: absolute;
     top: 60px;
-    transition: ease-in 3000ms;
+    right: -999px;
     background: #A141EB;
-    left: -999px;
+    transition: all 0.7s ease;
+}
+
+.containerItems.active {
+    right: 0px;
 }
 
 .headerItem {
@@ -37,8 +41,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 2% 15%;
-    font-size: 0.75rem;
+    margin: 5% 18%;
+    padding: 1% 1%;
+    font-size: .65rem;
 }
 
 .menuButton {
