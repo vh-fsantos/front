@@ -230,17 +230,20 @@ button {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    gap: 30px;
 }
 
 .faqTitle {
     color: #A141EB;
     line-height: 3rem;
     font-size: 1.25rem;
+    flex: 0 0 auto;
 }
 
 .faqLine {
-    border: solid 1px #E7E7E7;
-    width: 60%;
+    height: 2px;
+    background: #e7e7e7;
+    flex: 1;
 }
 
 .faqOpen {
