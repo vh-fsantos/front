@@ -209,6 +209,7 @@ button {
 
 .faqDescription {
     width: 80%;
+    display: none;
 }
 
 .footer {
