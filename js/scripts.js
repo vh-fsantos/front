@@ -1,7 +1,8 @@
 $(function() {
+    $(".containerItems").hide();
     $("body").on("click", ".menuButton", function() {
         const dropdown = $(this).parent().find(".containerItems");
-        dropdown.slideToggle();
+        dropdown.css({ display: "block", left: "0px" })
     });
 
     $("body").on("click", ".faqHeader", function() {
