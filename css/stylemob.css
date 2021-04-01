@@ -26,8 +26,8 @@
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 60px;
-    right: -999px;
+    top: 64px;
+    right: -1200px;
     background: #A141EB;
     transition: all 0.7s ease;
 }
