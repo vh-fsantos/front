@@ -91,8 +91,8 @@ button {
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 5%;
     box-sizing: border-box;
+    position: relative;
 }
 
 @media (min-width: 576px) {
@@ -125,16 +125,18 @@ button {
     align-items: center;
     gap: 15px;
     padding: 10px 50px;
+    position: absolute;
+    width: 100%;
 }
 
 .effectHeader {
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: 1;
     background: #A141EB;
     width: 700px;
-    height: 71px;
+    height: 72px;
     border-bottom-right-radius: 50px;
 }
 
@@ -168,23 +170,32 @@ button {
     background-color: #E1A626;
     position: absolute;
     top: -7px;
-    right: 5%;
+    right: 6%;
     border-radius: 10px;
 }
 
 .banner {
-    margin: 0;
-    padding: 0;
+    height: 500px;
+}
+
+.bannerImg {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
+    height: 100%;
 }
 
 .bannerContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 58%;
     width: 54%;
     padding-left: 50px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(193, 227, 234, 0));
+    background-image: linear-gradient( 90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(193, 227, 234, 0));
+    position: absolute;
+    left: 0px;
+    height: 100%;
 }
 
 .bannerTitle {
@@ -198,14 +209,6 @@ button {
     text-decoration: underline;
     font-weight: 700;
     color: #A141EB;
-}
-
-.bannerImg {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
 }
 
 .faq {
