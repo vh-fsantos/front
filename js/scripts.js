@@ -77,7 +77,7 @@ $(function() {
         });
     }).fail(function() {
         console.log(
-            "GET do JSON falhou por causa do cors, atualmente trazendo os dados de uma constante."
+            "GET do JSON falhou por causa do CORS, atualmente trazendo os dados de uma constante."
         );
         workAround.map((faq) => {
             $(".faqWrapper").append(`<div class="faqItem" id="${faq.id}">
