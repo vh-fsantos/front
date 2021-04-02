@@ -1,6 +1,11 @@
+/* General CSS Properties */
+
 .container {
     max-width: 100%;
 }
+
+
+/* Header CSS Properties */
 
 .headerContainer {
     display: none;
@@ -67,6 +72,9 @@
     right: 0px;
 }
 
+
+/* Banner CSS Properties */
+
 .bannerContent {
     position: relative;
 }
@@ -95,6 +103,9 @@
     line-height: 1.5rem;
     font-weight: 500;
 }
+
+
+/* FAQ CSS Properties */
 
 .faq {
     padding: 0;
